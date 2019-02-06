@@ -1,0 +1,25 @@
+<main>
+  <section class="search-content">
+    <div class="search">
+      <div>
+        <label for="search">Search Users</label>
+      </div>
+      <div class="search-input">
+        <input id="username" (focusout)="focusoutHandler($event)" type="search" class="url" name="githubsearch" placeholder="username">
+        <button id="search">Search</button>
+      </div>
+    </div>
+    <div class="public-api-result">
+      <div class="result">
+        <ul>
+          <!--<li *ngFor="let i of usersData">-->
+            <!--{{input}}-->
+          <!--</li>-->
+        </ul>
+        <app-custom-div></app-custom-div>
+      </div>
+    </div>
+  </section>
+</main>
+
+

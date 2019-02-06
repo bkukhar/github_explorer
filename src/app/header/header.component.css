@@ -1,0 +1,4 @@
+.active {
+  pointer-events: none;
+  color: #006ce5;
+}
